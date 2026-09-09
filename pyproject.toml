@@ -6,4 +6,10 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "mcp[cli]>=1.9.0",
+    "pillow>=12.3.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
 ]

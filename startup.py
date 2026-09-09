@@ -29,6 +29,10 @@ def register_routes():
 
         register_views_routes(api)
 
+        from revit_mcp.room_views import register_room_views_routes
+
+        register_room_views_routes(api)
+
         from revit_mcp.placement import register_placement_routes
 
         register_placement_routes(api)
